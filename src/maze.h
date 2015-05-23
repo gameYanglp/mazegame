@@ -6,7 +6,7 @@ class maze{
 public:
 	maze(){}
 	void init( int _edge );
-
+	void changecolor(int x ,int y);
 	//interface
 	float3** getColors(){return colors;}
 	int getEdge(){return edge;}
